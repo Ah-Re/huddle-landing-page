@@ -1,0 +1,159 @@
+html, body {
+    background: url("images/bg-mobile.svg");
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.container {
+     text-align: center; 
+}
+
+.logo-image {
+    display: block;
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 150px;
+}
+
+
+
+.mock-up-image {
+    
+    width: 300px;
+}
+
+.title {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+
+.text {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.register-button {
+    background-color: white;
+    border-radius: 25px;
+    border-style: none;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans';
+    padding: 1rem;
+    width: 250px;
+}
+
+.register-button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+.social-media-icons {
+    color: white;
+    margin-top: 4rem;
+    
+}
+
+.facebook-icon {
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.facebook-icon:hover {
+    border: 1px solid  hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.twitter-icon {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.twitter-icon:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid  hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.insta-icon {
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.insta-icon:hover {
+    border: 1px solid  hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+
+    .mock-up-image {
+    
+        width: 500px;
+    }
+
+    .logo-image {
+        width: 200px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .register-button {
+        font-size: 20px;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .content-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .right {
+        text-align: left;
+    }
+
+    .register-button {
+        margin-left: 2rem;
+    }
+
+    .title {
+        padding-right: 3rem;
+        margin-top: 1rem;
+    }
+
+    .mock-up-image {
+    
+        width: 600px;
+    }
+
+    .social-media-icons {
+        margin-right: 4rem;
+        text-align: right;
+    }
+    
+}

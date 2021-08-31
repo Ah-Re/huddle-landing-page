@@ -104,6 +104,14 @@ html, body {
 
 @media screen and (min-width: 768px) {
 
+    html, body {
+        background: url("images/bg-desktop.svg");
+        background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    margin: 0;
+        
+    }
+    
     .mock-up-image {
     
         width: 500px;
@@ -128,6 +136,14 @@ html, body {
 }
 
 @media screen and (min-width: 850px) {
+
+    html, body {
+        background: url("images/bg-desktop.svg");
+        background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    margin: 0;
+        
+    }
     .content-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
